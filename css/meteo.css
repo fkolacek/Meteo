@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0; border: 0; }
+body{ background-color: #3A3A3A;}
+#wrapper{ width: 800px; height: 480px; color: #F4F4F4; font-family: Helvetica, Arial; background-color: #3A3A3A; }
+  #clock{ float: left; width: 400px; }
+    #clock .box-wrapper{ margin-left: 5px; }
+  #inside{ float: left; width: 200px; }
+  #outside{ float: left; width: 200px; }
+  #forecast{ float: left; width: 800px; height: 240px; }
+    #current { float: left; width: 400px; }
+      #current .box-wrapper{ margin-left: 5px;  margin-top: 0; height: 235px;  }
+      #current table{ width: 100%; border: 0px; padding: 10px 0 0 15px; }
+      #current table th{ text-align: left; padding-left: 10px; }
+        #current-temp{ font-size: 3.6em; font-weight: bold; vertical-align: bottom; }
+        #current-description{ font-size: 1.5em; }
+    #week{ float: left; width: 400px; height: 240px; }
+      #week .day{ float: left; width: 100px;}
+      #week .day-wrapper{ margin: 0px 5px 5px 0; height: 225px; background-color: #272B33; text-align: center; padding-top: 10px; }
+      #week span{ width: 100%; display: block; }
+        #week .day .name{ font-size: 1.2em; font-weight: bold;  }
+        #week .day .temp{ font-size: 1.6em; }
+        #week .day .day-night{ font-size: 0.7em; }
+        #week .day .wind{ margin-top: 5px; font-size: 0.8em; }
+        #week .day .pressure{ margin-top: 5px; font-size: 0.8em; }
+
+.box{ height: 240px; text-align: center;}
+  .box-wrapper{ margin: 5px 5px 0 0; height: 230px; background: #fcfcfc; background-color: #272B33; }
+    .box-wrapper span{ display: block; }
+    .box-wrapper .value{ font-weight: bold; font-size: 3.2em; padding-top: 50px;  }
+    .box-wrapper .title{ font-weight: bold; padding-top: 10px; font-size: 1.7em;  }
+    .box-wrapper .description{ font-size: 1.0em; }
